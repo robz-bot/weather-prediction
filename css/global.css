@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #23457c;
+    --yellow: #fabf44;
+    --secondary-blue-color: #136bc0;
+}
+
+.form-control {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.form-control:focus {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgb(140, 188, 255);
+}
+
+.bg-yellow {
+    background-color: var(--yellow);
+}
+
+.bg-secondary-blue {
+    background-color: var(--secondary-blue-color);
+}
